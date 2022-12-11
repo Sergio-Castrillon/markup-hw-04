@@ -112,7 +112,7 @@ body {
 .list-above li svg {
   fill: var(--gray-1);
   height: 20px;
-  margin: 10px 4px 0 0;
+  margin: 10px 0px 0 0;
   width: 20px;
 }
 
@@ -120,6 +120,7 @@ body {
   align-items: center;
   display: flex;
   font-size: 14px;
+  gap: 8px;
   justify-content: center;
   text-decoration: none;
 }
@@ -129,7 +130,7 @@ li .item,
 li .item .icon {
   color: var(--gray-1);
   fill: #757575;
-  margin: 10px 4px 0 0;
+  margin: 10px 0px 0 0;
 }
 
 li .item:hover,
